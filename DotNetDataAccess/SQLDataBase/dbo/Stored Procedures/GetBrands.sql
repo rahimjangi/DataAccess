@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE [dbo].[GetBrands]
+
+AS
+BEGIN
+	SET NOCOUNT ON
+	SELECT * FROM [dbo].[Brand]
+END
